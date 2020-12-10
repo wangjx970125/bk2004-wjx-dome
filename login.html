@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/public.css">
+  <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+
+  <div class="header">
+    <img src="./img/tnf-logo.jpg" alt="">
+    <h2>欢迎登陆</h2>
+  </div>
+
+  <div class="info userinfo container">
+    <!-- 面板 -->
+    <div class="panel panel-success">
+      <!-- 面板头部 -->
+      <div class="panel-heading">快速登录/注册</div>
+      <!-- 面板身体 -->
+      <div class="panel-body">
+        <span class="login_error hide">用户名或密码错误!</span>
+        <form class="col-sm-11" id="login">
+          <div class="form-group">
+            <label for="username">用户名: </label>
+            <input type="text" name="username" class="form-control" autocomplete="off" id="username" placeholder="请填写用户名">
+          </div>
+          <div class="form-group">
+            <label for="password">密 码: </label>
+            <input type="text" name="password" class="form-control" autocomplete="off" id="password" placeholder="请填写密码">
+          </div>
+          <div class="check">
+            <span>
+              <input type="checkbox" name="checkbox">
+              <a href="#">我同意服务条款</a>
+            </span>
+          </div>
+          <button type="submit" class="login btn btn-success col-sm-5">登录</button>
+          <button type="button" class="register pull-right btn btn-warning col-sm-5">注册</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!--
+    登录
+      1. 当点击登录按钮的时候
+        => 拿到表单输入的内容
+        => 进行表单验证
+        => 验证通过以后, 提交表单到指定服务器接口
+        => **jquery-validate**
+      2. 根据接口返回的信息
+        => 决定是否跳转页面
+  -->
+
+  <script src="./assets/jquery/jquery.min.js"></script>
+  <script src="./assets/jquery-validation/jquery.validate.min.js"></script>
+  <script src="./assets/jquery-validation/localization/messages_zh.min.js"></script>
+  <script src="./js/public.js"></script>
+  <script src="./js/login.js"></script>
+</body> 
+</html>

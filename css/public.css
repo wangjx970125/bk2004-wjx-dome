@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+input, button, select {
+  outline: none;
+}
+
+a, a:hover, a:active, a:link, a:target {
+  text-decoration: none;
+}
+
+img {
+  /* width: 100%;
+  height: 100%; */
+  display: block;
+}
+

@@ -1,0 +1,262 @@
+.content {
+  margin-top: 30px;
+}
+body{
+  padding-top: 50px;
+}
+img{
+  width: 100px;
+}
+.content .selectAll {
+  font-size: 20px;
+  position: relative;
+}
+
+.content .selectAll > input {
+  width: 20px;
+  height: 20px;
+}
+
+.content .selectAll > .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-weight: 700;
+  color: green;
+}
+
+.content .goodsList > li {
+  height: 100px;
+  padding: 10px 0;
+  display: flex;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+.content .goodsList > li:last-child {
+  margin-bottom: 0;
+}
+
+.content .goodsList > li > .select {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .goodsList > li > .goodsImg {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.content .goodsList > li > .goodsDesc {
+  width: 300px;
+  padding: 10px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.content .goodsList > li > .goodsDesc > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.content .goodsList > li > .price,
+.content .goodsList > li > .xiaoji {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.content .goodsList > li > .count {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .goodsList > li > .count > button {
+  width: 30px;
+  height: 30px;
+}
+
+.content .goodsList > li > .count > input {
+  width: 75px;
+  height: 33px;
+  text-align: center;
+  border: none;
+}
+
+.content .goodsList > li > .operate {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyInfo {
+  display: flex;
+  align-items: center;
+}
+
+.buyInfo > .buyNum,
+.buyInfo > .buyMoney,
+.buyInfo > .operate {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.buyInfo > .buyNum > span,
+.buyInfo > .buyMoney > span {
+  font-size: 30px;
+}
+.center{
+  margin:0 auto;
+}
+.header{
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+  line-height: 40px; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  display: flex;
+  z-index: 10;
+}
+.header .navDiv{
+  width: 120px;
+}
+.header .navDiv a{
+  width: 116px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  padding: 0 20px;
+  
+}
+.header .navDiv .down-left{
+  display: flex;
+  position: relative;
+  
+}  
+.service{
+  width: 100%;
+  height: 248px;
+  background-color: #f9f9f9;
+  position: relative;
+  margin: 30px 0 0;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service .help{
+  margin-right: 150px;
+}
+.service .help p{
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  left: -50px;
+}
+.footed{
+  width: 100%;
+  height: 420px;
+  background-color: #000;
+  color: red;
+  display: flex;
+  padding-top: 60px;
+  justify-content: center;
+  /* position: relative; */
+  /* bottom: 0; */
+}
+.footed .client{
+  margin-right: 50px;
+  display: flex;
+  height: 240px;
+}
+.footed .WeChat{
+  display: flex;
+  position: relative;
+  padding: 0 20px;
+}
+.footed ul{
+  position: relative;
+  margin-right: 50px;
+}
+.footed ul li:nth-child(1){
+  margin-bottom: 15px;
+}
+.footed ul li a{
+  color: #707070;
+  font-size: 10px;
+}
+.footed .WeChat img{
+  width: 96px;
+  height: 96px;
+}
+.footed .WeChat img:nth-child(1){
+  margin-right: 50px;
+}
+.footed .WeChat p{
+  display: block;
+  margin-top: 10px;
+  color: #707070;
+  /* text-align: center; */
+}
+.footed .WeChat ul{
+  display: flex;
+  height: 142px;
+
+}
+.footed .WeChat ul li{
+  height: 142px;
+}
+.footed .WeChat .xl-t{
+  width: 200px;
+  height: 42px;
+  border: 2px solid #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  top: 150px;
+  right:300px;
+  color: #707070;
+
+}  
+.header .goshopping{
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  right: 170px;
+  cursor: pointer;
+
+}
+.header .goshopping .shopping .text-danger{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border: 1px solid red;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+}

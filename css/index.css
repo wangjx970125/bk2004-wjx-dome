@@ -1,0 +1,330 @@
+body{
+    height: 1000px;
+}
+
+.center{
+    margin:0 auto;
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    line-height: 40px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    z-index: 10;
+}
+.header .navDiv{
+    width: 120px;
+}
+.header .navDiv a{
+    width: 116px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 0 20px;
+    
+}
+.header .navDiv .down-left{
+    display: flex;
+    position: relative;
+    
+}
+.header .navDiv .down-left .navSec a{
+    font-size: 16px;
+    color: #000;
+}
+.header .navDiv .down-left .navSec .divShop{
+    width: 1060px;
+    height: 340px;
+    background-color: rgb(239,239,239);
+    position: absolute;
+    display: flex;
+    /* display: none; */
+}
+.header .goshopping{
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 170px;
+    cursor: pointer;
+
+}
+.header .goshopping .shopping .text-danger{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+}
+
+
+.header .panel-body{
+    position: absolute;
+    top: -15px;
+    right: 20px;
+}
+.header .panel-body a{
+    color: #fff;
+}
+.banner{
+    position: relative;
+    width: 1920px;
+    background-color: skyblue;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+    z-index: 2;
+}
+.classify{
+    width: 1072px; 
+    display: flex;
+    position: relative;
+    top: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.classify .classify1 img{
+    width: 526px;
+    height: 295px;
+    margin-right: 20px;
+}
+.classify .classify2{
+    width: 526px;
+    height: 295px;
+}
+.optimization{
+    width: 1200px;
+    height: 528px;
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-49%);
+    justify-content: space-evenly;
+
+}
+.optimization > #optin{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.optimization li img{
+    width: 275px;
+    height: 528px;
+    display: flex;
+    
+}
+.best p{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    margin: 30px 0;
+}
+.best ul{
+    width: 1140px;
+    height: 350px;
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.best ul li{
+    flex: 1;
+    width: 270px;
+    height: 350px;
+    margin-right: 19px;
+    padding: 15px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+.best ul li img{
+    width: 238px;
+    height: 238px;
+
+}
+.best ul li p{
+    font-size: 13px;
+    font-weight: 900;
+    position: relative;
+    top: -15px;
+}
+.best ul li span{
+    color: red;
+    font-weight: 900;
+    position: relative;
+    top: -35px;
+    left: 40%;
+}
+.service{
+    width: 100%;
+    height: 248px;
+    background-color: #f9f9f9;
+    position: relative;
+    top: 200px;
+    margin: 30px 0 0;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service .help{
+    margin-right: 150px;
+}
+.service .help p{
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+    left: -50px;
+}
+.footed{
+    width: 100%;
+    height: 420px;
+    background-color: #000;
+    color: red;
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+    /* position: relative; */
+    /* bottom: 0; */
+}
+.footed .client{
+    margin-right: 50px;
+    display: flex;
+    height: 240px;
+}
+.footed .WeChat{
+    display: flex;
+    position: relative;
+    padding: 0 20px;
+}
+.footed ul{
+    position: relative;
+    top: 200px;
+    margin-right: 50px;
+}
+.footed ul li:nth-child(1){
+    margin-bottom: 15px;
+}
+.footed ul li a{
+    color: #707070;
+    font-size: 10px;
+}
+.footed .WeChat img{
+    width: 96px;
+    height: 96px;
+}
+.footed .WeChat img:nth-child(1){
+    margin-right: 50px;
+}
+.footed .WeChat p{
+    display: block;
+    margin-top: 10px;
+    color: #707070;
+    /* text-align: center; */
+}
+.footed .WeChat ul{
+    display: flex;
+    height: 142px;
+
+}
+.footed .WeChat ul li{
+    height: 142px;
+}
+.footed .WeChat .xl-t{
+    width: 200px;
+    height: 42px;
+    border: 2px solid #707070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    top: 350px;
+    right:300px;
+    color: #707070;
+
+}
+.box{
+    width: 600px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+.box input {
+    border: none;
+    outline: none;
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 30px;
+}
+.box button {
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.header .box ol{
+    position: absolute;
+    top: 100%;
+    left: -3px;
+    width: calc(100% + 6px);
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid skyblue;
+    z-index:999;
+    background-color: #fff;
+
+    display: none;
+}
+.header .box ol li{
+    background-color: #fff;
+}
+
+
+.header .box ol.active {
+    display: block;
+}
+
+.header .box ol > li {
+    list-style: none;
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.header .box ol > li:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+.goshop .jumbotron{
+    position: relative;
+    top: 200px;
+}
+
+.info{
+    position: relative;
+    top: 200px;
+}

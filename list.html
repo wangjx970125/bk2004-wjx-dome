@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/jquery-pagination/pagination.css">
+  <link rel="stylesheet" href="./css/public.css">
+  <link rel="stylesheet" href="./css/list.css">
+</head>
+<body>
+  <div class="header center">
+    <div class="goshopping">
+			<span class="shopping">
+				<a href="./cart.html">
+				<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				  <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+				</svg></a>
+				
+			</span>
+		</div>
+		<div class="navDiv">
+			<a href="./index.html">官方商城Shop</a>
+			<div class="down-left">
+				
+			</div>
+		</div>
+	</div>
+
+  <!--
+    filterinfo 筛选信息的面板
+  -->
+  <div class="info filterinfo container">
+    <div class="panel panel-success">
+      <div class="panel-heading">筛选信息</div>
+      <div class="panel-body">
+        <ul>
+          <li class="cateOneBox">
+            <div class="left">种类</div>
+            <div class="right">
+              <span class="active">全部</span>
+              <span>服装</span>
+              <span>鞋</span>
+              <span>户外配件</span>
+            </div>
+          </li>
+          <li class="catTwoBox">
+            <div class="left">小件</div>
+            <div class="right">
+              <span class="active">全部</span>
+            </div>
+          </li>     
+          <li class="sortBox">
+            <div class="left">排序方式</div>
+            <div class="right">
+              <span class="active" data-method="综合" data-type="ASC">综合</span>
+              <span data-method="价格" data-type="ASC">价格</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="goodsList container">
+    <ul class="">
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+      <li class="thumbnail">
+        <img src="https://img3.thenorthface.com.cn/public/images/3e/b7/8f/41243c5591a2b0094cab8acd51aafb09f2105aeb.jpg?1605770946#h" alt="...">
+        <div class="caption">
+          <h3>我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述我是一个描述</h3>
+          <p class="price">￥ <span class="text-danger">100.00</span></p>
+          <p>
+            <a href="javascript:;" class="btn btn-danger" role="button">加入购物车</a>
+            <a href="./cart.html" class="btn btn-warning" role="button">去结算</a>
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- 分页信息面板 -->
+  <div class="info pagiInfo container">
+    <div class="panel panel-warning">
+      <div class="panel-body pagination m-style">
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="service">
+		<div class="help">
+			<img src="./img/help-phone.png" alt="">
+			<p>工作时间 : 周一至周日,9:00~22:00</p>
+			<h6>400-890-7688</h6>
+		</div>
+		<div class="stop">
+			<a href="#"><img src="./img/tnf.jpg" alt=""></a>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div class="footed">
+		<div class="client">
+			<ul>
+				<li class="big"><a href="#">官方商城</a></li>
+				<li><a href="#">全部商品</a></li>
+				<li><a href="#">男式</a></li>
+				<li><a href="#">女式</a></li>
+				<li><a href="#">鞋类</a></li>
+				<li><a href="#">装备/配件</a></li>
+				<li><a href="#">童装</a></li>
+				<li><a href="#">科技</a></li>
+				<li><a href="#">场景</a></li>
+			</ul>
+			<ul>
+				<li class="big"><a href="#">VIPeak</a></li>
+				<li><a href="#">关于VIPeak</a></li>
+				<li><a href="#">会员等级</a></li>
+				<li><a href="#">会员权益</a></li>
+				<li><a href="#">如何获得积分</a></li>
+			</ul>
+			<ul>
+				<li class="big"><a href="#">探索北面</a></li>
+				<li><a href="#">探索行动</a></li>
+				<li><a href="#">运动员</a></li>
+				<li><a href="#">查找门店</a></li>
+			</ul>
+			<ul>
+				<li class="big"><a href="#">客户服务</a></li>
+				<li><a href="#">购物流程</a></li>
+				<li><a href="#">购物须知</a></li>
+				<li><a href="#">退换货</a></li>
+				<li><a href="#">支付方式</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">免责声明</a></li>
+				<li><a href="#">使用条款</a></li>
+				<li><a href="#">注册协议</a></li>
+			</ul>
+		</div>
+		<div class="WeChat">
+			<ul>
+				<li>
+					<img src="./img/righticon_02.png" alt="">
+					<p>扫一扫关注</p>
+				</li>
+				<li>
+					<img src="./img/ewm-l.png" alt="">
+					<p>扫一扫关注</p>
+				</li>
+			</ul>
+			<div class="xl-t">
+				<span>欢迎关注北方官方微博</span>
+			</div>
+		</div>
+	</div>
+
+
+  <script src="./assets/jquery/jquery.min.js"></script>
+  <script src="./assets/jquery-pagination/jquery.paginatuon.js"></script>
+  <script src="./js/public.js"></script>
+  <script src="./js/list.js"></script>
+  <script>
+    
+  </script>
+</body>
+</html>
